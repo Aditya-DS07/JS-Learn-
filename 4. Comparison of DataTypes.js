@@ -9,7 +9,7 @@ console.log(null>=0);   // this is true because in JS comparison operators conve
 
 
 
-console.log(undefined>0);
-console.log(undefined<0);
-console.log(undefined>=0);
-console.log(undefined==0);
+// console.log(undefined>0);
+// console.log(undefined<0);
+// console.log(undefined>=0);
+// console.log(undefined==0);
