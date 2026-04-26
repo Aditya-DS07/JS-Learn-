@@ -46,7 +46,33 @@
 
 
 
-let a = 33 
-let astring = String(a)
-console.log(astring)
-console.log(typeof astring)
+// let a = 33 
+// let astring = String(a)
+// console.log(astring)
+// console.log(typeof astring)
+
+
+
+// **************************************************************  OPERATIONS  ************************************************************
+
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue);
+
+a = 1 
+b = a++    // This is a POSTFIX Incerement Operator, in this operator the value increments and the operator returns the vlaue before incrementing
+console.log(a , b);
+
+
+c = 2 
+d = ++c     // This is a PREFIX Increment Operator, in this operator the value increments and the operator returns the vlaue after incrementing
+console.log(c , d); //
+
+let counter  = 100 
+counter++
+console.log(counter);
+
+let counter2 = 100
+++counter2
+console.log(counter2)
