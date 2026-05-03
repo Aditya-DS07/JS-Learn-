@@ -5,5 +5,5 @@
 })();
 
 ( (name) => {
-    console.log(`DB connected again ${name}`);
+    console.log(`DB connected again, ${name}`);
 } ) ("aditya");
