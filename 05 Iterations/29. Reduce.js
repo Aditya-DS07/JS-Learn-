@@ -25,4 +25,4 @@ let fruits = [
 let totalprice = fruits.reduce((sums, fruit)=>{
     return sums+fruit.price
 },0)
-console.log(totalprice);
+console.log(`Your Cart Price is: $${totalprice}`);
